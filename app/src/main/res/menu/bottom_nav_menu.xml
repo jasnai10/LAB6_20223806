@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_pronosticos"
+        android:title="@string/mis_pronosticos"
+        android:icon="@android:drawable/ic_menu_agenda"/>
+    <item
+        android:id="@+id/nav_estadisticas"
+        android:title="@string/estadisticas"
+        android:icon="@android:drawable/ic_menu_sort_by_size"/>
+    <item
+        android:id="@+id/nav_cerrar_sesion"
+        android:title="@string/cerrar_sesion"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"/>
+</menu>

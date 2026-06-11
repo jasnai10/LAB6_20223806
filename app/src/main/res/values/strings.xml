@@ -1,3 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">LAB6_20223806</string>
+    <string name="app_name">Mundial 2026</string>
+
+    <string name="iniciar_sesion">Iniciar sesión</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="correo_electronico">Correo electrónico</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="confirmar_contrasena">Confirmar contraseña</string>
+    <string name="no_tienes_cuenta">¿No tienes cuenta? Regístrate</string>
+    <string name="ya_tienes_cuenta">¿Ya tienes cuenta? Inicia sesión</string>
+    <string name="o_continua_con">— o continúa con —</string>
+    <string name="continuar_google">Continuar con Google</string>
+    <string name="continuar_github">Continuar con GitHub</string>
+
+    <string name="mis_pronosticos">Mis Pronósticos</string>
+    <string name="estadisticas">Estadísticas</string>
+    <string name="cerrar_sesion">Cerrar Sesión</string>
+
+    <string name="registrar_pronostico">Registrar Pronóstico</string>
+    <string name="editar_pronostico">Editar Pronóstico</string>
+    <string name="seleccion_a">Selección A</string>
+    <string name="seleccion_b">Selección B</string>
+    <string name="fecha_partido">Fecha del Partido</string>
+    <string name="goles_a">Goles Selección A</string>
+    <string name="goles_b">Goles Selección B</string>
+    <string name="estado">Estado</string>
+    <string name="registrar">Registrar</string>
+    <string name="guardar">Guardar</string>
+    <string name="sin_pronosticos">No tienes pronósticos aún</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="confirmar_eliminar">¿Eliminar pronóstico?</string>
+    <string name="confirmar_eliminar_msg">Esta acción no se puede deshacer.</string>
+
+    <!-- 48 selecciones clasificadas al Mundial 2026 -->
+    <string-array name="selecciones_mundial">
+        <!-- CONMEBOL (6) -->
+        <item>Argentina</item>
+        <item>Brasil</item>
+        <item>Colombia</item>
+        <item>Ecuador</item>
+        <item>Paraguay</item>
+        <item>Uruguay</item>
+        <!-- UEFA (16) -->
+        <item>Alemania</item>
+        <item>Austria</item>
+        <item>Bélgica</item>
+        <item>Bosnia y Herzegovina</item>
+        <item>Croacia</item>
+        <item>España</item>
+        <item>Escocia</item>
+        <item>Francia</item>
+        <item>Países Bajos</item>
+        <item>Noruega</item>
+        <item>Portugal</item>
+        <item>República Checa</item>
+        <item>Suecia</item>
+        <item>Suiza</item>
+        <item>Turquía</item>
+        <item>Inglaterra</item>
+        <!-- CAF (10) -->
+        <item>Argelia</item>
+        <item>Cabo Verde</item>
+        <item>Costa de Marfil</item>
+        <item>Egipto</item>
+        <item>Ghana</item>
+        <item>Marruecos</item>
+        <item>RD del Congo</item>
+        <item>Senegal</item>
+        <item>Sudáfrica</item>
+        <item>Túnez</item>
+        <!-- AFC (9) -->
+        <item>Arabia Saudita</item>
+        <item>Australia</item>
+        <item>Catar</item>
+        <item>Corea del Sur</item>
+        <item>Irak</item>
+        <item>Irán</item>
+        <item>Japón</item>
+        <item>Jordania</item>
+        <item>Uzbekistán</item>
+        <!-- CONCACAF (6) -->
+        <item>Canadá</item>
+        <item>Curazao</item>
+        <item>Estados Unidos</item>
+        <item>Haití</item>
+        <item>México</item>
+        <item>Panamá</item>
+        <!-- OFC (1) -->
+        <item>Nueva Zelanda</item>
+    </string-array>
+
+    <string-array name="estados_pronostico">
+        <item>Pendiente</item>
+        <item>Acertado</item>
+        <item>Fallado</item>
+    </string-array>
 </resources>

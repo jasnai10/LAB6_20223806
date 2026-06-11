@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Fondo círculo azul -->
+    <path
+        android:fillColor="#1565C0"
+        android:pathData="M60,5 A55,55 0 1,1 59.99,5 Z"/>
+    <!-- Pelota de fútbol - círculo blanco -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,25 A35,35 0 1,1 59.99,25 Z"/>
+    <!-- Hexágono central negro -->
+    <path
+        android:fillColor="#212121"
+        android:pathData="M60,38 L71,45 L71,59 L60,66 L49,59 L49,45 Z"/>
+    <!-- Líneas de la pelota -->
+    <path
+        android:strokeColor="#212121"
+        android:strokeWidth="2"
+        android:pathData="M60,38 L60,25"/>
+    <path
+        android:strokeColor="#212121"
+        android:strokeWidth="2"
+        android:pathData="M71,45 L82,40"/>
+    <path
+        android:strokeColor="#212121"
+        android:strokeWidth="2"
+        android:pathData="M71,59 L82,64"/>
+    <path
+        android:strokeColor="#212121"
+        android:strokeWidth="2"
+        android:pathData="M60,66 L60,79"/>
+    <path
+        android:strokeColor="#212121"
+        android:strokeWidth="2"
+        android:pathData="M49,59 L38,64"/>
+    <path
+        android:strokeColor="#212121"
+        android:strokeWidth="2"
+        android:pathData="M49,45 L38,40"/>
+    <!-- Texto MUNDIAL -->
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M30,90 L90,90 L90,100 L30,100 Z"/>
+</vector>

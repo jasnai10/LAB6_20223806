@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_pronosticos">
+
+    <fragment
+        android:id="@+id/nav_pronosticos"
+        android:name="com.example.lab6_20223806.ui.pronosticos.PronosticosFragment"
+        android:label="@string/mis_pronosticos"/>
+
+    <fragment
+        android:id="@+id/nav_estadisticas"
+        android:name="com.example.lab6_20223806.ui.estadisticas.EstadisticasFragment"
+        android:label="@string/estadisticas"/>
+
+</navigation>

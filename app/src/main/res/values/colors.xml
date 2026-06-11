@@ -2,4 +2,16 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#1565C0</color>
+    <color name="colorPrimaryDark">#0D47A1</color>
+    <color name="colorAccent">#FFC107</color>
+    <color name="color_pendiente">#FFC107</color>
+    <color name="color_pendiente_text">#000000</color>
+    <color name="color_acertado">#4CAF50</color>
+    <color name="color_acertado_text">#FFFFFF</color>
+    <color name="color_fallado">#F44336</color>
+    <color name="color_fallado_text">#FFFFFF</color>
+    <color name="chart_pendiente">#FFC107</color>
+    <color name="chart_acertado">#4CAF50</color>
+    <color name="chart_fallado">#F44336</color>
 </resources>
