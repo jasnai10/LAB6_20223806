@@ -16,6 +16,7 @@ import com.github.mikephil.charting.components.Legend;
 import com.github.mikephil.charting.data.PieData;
 import com.github.mikephil.charting.data.PieDataSet;
 import com.github.mikephil.charting.data.PieEntry;
+import com.github.mikephil.charting.formatter.PercentFormatter;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.ListenerRegistration;
@@ -136,12 +137,14 @@ public class EstadisticasFragment extends Fragment {
 
         PieDataSet dataSet = new PieDataSet(entries, "");
         dataSet.setColors(colors);
-        dataSet.setSliceSpace(3f);          // separación visual entre sectores
-        dataSet.setSelectionShift(6f);      // expansión al tocar un sector
+        dataSet.setSliceSpace(3f);
+        dataSet.setSelectionShift(6f);
         dataSet.setValueTextColor(Color.WHITE);
         dataSet.setValueTextSize(13f);
         dataSet.setValueLinePart1Length(0.4f);
         dataSet.setValueLinePart2Length(0.4f);
+        // Mostrar porcentaje con símbolo %, e.g. "66.7%"
+        dataSet.setValueFormatter(new PercentFormatter(binding.pieChart));
 
         PieData pieData = new PieData(dataSet);
         binding.pieChart.setData(pieData);
